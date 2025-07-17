@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px auto;
+  width: 170px;
+  background-color: blue;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 100px rgb(21, 255, 13);
+}
+
+.btn {
+  font-size: 40px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.Data {
+  font-size: 40px;
+}
